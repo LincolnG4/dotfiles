@@ -1,0 +1,19 @@
+-- return {
+--   "neovim/nvim-lspconfig",
+--   opts = {
+--     servers = {
+--       gopls = {},
+--     },
+--   },
+--   dependencies = {
+--     "nvim-treesitter/nvim-treesitter",
+--     build = ":TSUpdate",
+--     config = function()
+--       require("nvim-treesitter.configs").setup({
+--         -- A list of parsers to enable
+--         ensure_installed = { "go" },
+--         -- Additional tree-sitter configuration as needed
+--       })
+--     end,
+--   },
+-- }
