@@ -45,5 +45,4 @@
 theme = dark:catppuccin-frappe,light:catppuccin-latte
 #keybind = ctrl+w=close_surface
 
-
-
+mouse-scroll-multiplier = 0.3
