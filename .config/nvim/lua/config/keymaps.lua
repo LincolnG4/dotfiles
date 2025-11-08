@@ -21,9 +21,7 @@ local function build_and_debug()
   -- For C/C++, we still need to build manually
   if contains({ "c", "cpp" }, ft) then
     -- Ensure the build directory exists for C/C++
-    if not vim.fn.isdirectory(path .. "/build") then
-      vim.fn.mkdir(path .. "/build", "p")
-    end
+    vim.fn.system("mkdir ./build")
 
     if ft == "c" then
       build_cmd = string.format("gcc -g '%s' -o '%s'", file, exe)
