@@ -45,6 +45,7 @@
 theme = dark:custom-zelda,light:catppuccin-latte
 #keybind = ctrl+w=close_surface
 
+maximize = true
 mouse-scroll-multiplier = 0.3
 background-opacity = 0.95
 gtk-titlebar = false
