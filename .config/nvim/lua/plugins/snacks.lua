@@ -5,7 +5,7 @@ return {
     picker = {
       hidden = true, -- show hidden files globally
       ignored = true, -- respect .gitignore
-
+      git_status = true,
       matcher = {
         ignore_patterns = { "%.git/", "%.bruno/" }, -- always ignore these
       },

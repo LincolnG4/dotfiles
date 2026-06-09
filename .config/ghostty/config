@@ -42,10 +42,10 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-theme = dark:custom-zelda,light:catppuccin-latte
+theme = dark:vague,light:catppuccin-latte
 #keybind = ctrl+w=close_surface
 
 maximize = true
 mouse-scroll-multiplier = 0.3
-background-opacity = 0.95
+background-opacity = 0.85
 gtk-titlebar = false
